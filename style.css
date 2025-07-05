@@ -1,0 +1,82 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #7F00FF, #E100FF);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #fff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      width: 350px;
+    }
+
+    .base h4 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 25px;
+      color: #7F00FF;
+    }
+
+    .block {
+      margin-bottom: 15px;
+    }
+
+    .title {
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #444;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 16px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      transition: border-color 0.3s ease;
+    }
+
+    input[type="text"]:focus {
+      border-color: #7F00FF;
+      outline: none;
+    }
+
+    .submit-button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    input[type="button"] {
+      background-color: #7F00FF;
+      color: white;
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    input[type="button"]:hover {
+      background-color: #5E00BF;
+      transform: scale(1.05);
+    }
+
+    #age {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #222;
+    }
