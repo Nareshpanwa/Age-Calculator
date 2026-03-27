@@ -13,7 +13,7 @@ A simple Age Calculator web app built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## 🌐 Live Demo
-https://nareshpanwar.github.io/Age-Calculator/
+https://nareshpanwa.github.io/Age-Calculator/
 
 ## 📸 Screenshot
 (Add screenshot here later)
